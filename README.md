@@ -8,9 +8,35 @@ I develop innovative software solutions and integrate artificial intelligence to
 
 ## 🚀 Featured Projects
 
-- 🤖 **[AI LiveBot](https://github.com/markegidiDev/ERP-ChatBot-LLM)** - AI Assistant for Odoo with Gemini/OpenRouter
-- 📦 **Warehouse Management** - Warehouse and order management through natural language
-- 🛠️ **ERP Customization** - Custom modules for Odoo 18
+### 🤖 [AI LiveBot (Odoo Assistant)](https://github.com/markegidiDev/ERP-ChatBot-LLM)
+**Conversational Agent for Odoo 18** that automates warehouse workflows using natural language.
+The system overrides Odoo's native chat to orchestrate specific tools (product search, stock checks, order creation) via LLM Function Calling.
+
+*   **Key Tech:** Python • Odoo 18 (Custom Module) • LangChain • PostgreSQL
+*   **Highlights:**
+    *   **Smart Orchestration:** Translates user prompts into ORM queries using **Function Calling** for safe database interactions.
+    *   **RAG-lite:** Implements fuzzy search and term normalization to locate products even with imprecise queries.
+    *   **Multi-Provider:** Dynamic routing between Gemini and OpenRouter APIs with automatic key validation.
+
+### 📊 [Pulse Buddy (Extension)](https://github.com/markegidiDev/pulse-buddy)
+**Chrome Extension (MV3)** for Trading Intelligence that injects real-time financial data directly into the UI of crypto platforms.
+
+*   **Key Tech:** JavaScript (ES6+) • Chrome MV3 • WebSocket Client • DOM Manipulation
+*   **Highlights:**
+    *   **High Performance:** Uses optimized `MutationObserver` and *Virtualizer Shims* to inject UI badges without breaking virtual scrolling or causing layout shifts.
+    *   **Real-time Engine:** Manages WebSocket connections to update metrics ("Fresh Stats") with millisecond latency.
+    *   **Local-First:** Privacy-focused architecture where user preferences, watchlists, and blacklists live strictly in the browser storage.
+
+### ☁️ [Sigma18 Engineering (Backend & Docs)](https://github.com/Sigma18Unipd/ProductBaseline)
+**Product Baseline** for the university capstone project. This repository hosts the **Serverless Cloud Infrastructure** that powers the Pulse Buddy ecosystem, along with full engineering documentation.
+
+*   **Key Tech:** AWS (Lambda, API Gateway, DynamoDB) • CI/CD (GitHub Actions) • Unit Testing
+*   **Highlights:**
+    *   **Serverless Architecture:** Scalable backend built on **Microservices** to handle data ingestion and real-time WebSocket distribution.
+    *   **Software Engineering:** Strict adherence to **SDLC** standards, including Requirements Analysis, Design Patterns, and Static Code Analysis.
+    *   **Quality Assurance:** Maintained >80% test coverage (Unit & Integration) via automated CI/CD pipelines.
+
+🔗 [**Official Engineering Documentation**](https://sigma18unipd.github.io/)
 
 ---
 
