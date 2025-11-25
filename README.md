@@ -1,6 +1,6 @@
 # 👋 Hi, I'm Marco Egidi!
 
-### 💻 Developer | AI Enthusiast | Odoo Specialist
+### 💻 Developer | AI Enthusiast |
 
 I develop innovative software solutions and integrate artificial intelligence to automate business processes.
 
@@ -15,7 +15,7 @@ The system overrides Odoo's native chat to orchestrate specific tools (product s
 *   **Key Tech:** Python • Odoo 18 (Custom Module) • LangChain • PostgreSQL
 *   **Highlights:**
     *   **Smart Orchestration:** Translates user prompts into ORM queries using **Function Calling** for safe database interactions.
-    *   **RAG-lite:** Implements fuzzy search and term normalization to locate products even with imprecise queries.
+    *   **RAG-lite:** Implements fuzzy search and term normalisation to locate products even with imprecise queries.
     *   **Multi-Provider:** Dynamic routing between Gemini and OpenRouter APIs with automatic key validation.
 
 ### 📊 [Pulse Buddy (Extension)](https://github.com/markegidiDev/pulse-buddy)
@@ -23,7 +23,7 @@ The system overrides Odoo's native chat to orchestrate specific tools (product s
 
 *   **Key Tech:** JavaScript (ES6+) • Chrome MV3 • WebSocket Client • DOM Manipulation
 *   **Highlights:**
-    *   **High Performance:** Uses optimized `MutationObserver` and *Virtualizer Shims* to inject UI badges without breaking virtual scrolling or causing layout shifts.
+    *   **High Performance:** Uses optimised `MutationObserver` and *Virtualiser Shims* to inject UI badges without breaking virtual scrolling or causing layout shifts.
     *   **Real-time Engine:** Manages WebSocket connections to update metrics ("Fresh Stats") with millisecond latency.
     *   **Local-First:** Privacy-focused architecture where user preferences, watchlists, and blacklists live strictly in the browser storage.
 
