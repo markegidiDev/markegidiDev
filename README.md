@@ -1,71 +1,180 @@
-# 👋 Hi, I'm Marco Egidi!
+<div align="center">
 
-### 💻 Developer | AI Enthusiast |
+# 👋 Hi, I'm Marco Egidi
 
-I develop innovative software solutions and integrate artificial intelligence to automate business processes.
+### Software Engineer · Applied AI & Backend · Incoming MSc Cybersecurity Student
+
+**BSc in Computer Science at the University of Padua**
+Starting an **MSc in Cybersecurity in October 2026**
+
+I build production-oriented software, AI-powered applications and backend systems, with a growing focus on secure software engineering.
+
+<br>
+
+[![Portfolio](https://img.shields.io/badge/Portfolio-Visit_Website-111827?style=for-the-badge\&logo=vercel\&logoColor=white)](https://markegididev.github.io/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Marco_Egidi-0A66C2?style=for-the-badge\&logo=linkedin\&logoColor=white)](https://www.linkedin.com/in/marcoegidi)
+[![GitHub](https://img.shields.io/badge/GitHub-markegidiDev-181717?style=for-the-badge\&logo=github\&logoColor=white)](https://github.com/markegidiDev)
+
+</div>
+
+---
+
+## 👨‍💻 About Me
+
+* 🎓 Bachelor of Science graduate in **Computer Science** from the **University of Padua**
+* 🔐 Incoming **Cybersecurity MSc student**, starting in October 2026
+* 🧠 Interested in the intersection of **secure software, backend engineering and applied AI**
+* ⚙️ Experienced in building full-stack applications, REST APIs, LLM integrations and cloud-based systems
+* 🧪 Focused on maintainable architecture, automated testing and production-oriented development
+* 🌍 Open to **part-time, internship and remote opportunities across Europe**
 
 ---
 
 ## 🚀 Featured Projects
 
-### 🤖 [AI LiveBot (Odoo Assistant)](https://github.com/markegidiDev/ERP-ChatBot-LLM)
-**Conversational Agent for Odoo 18** that automates warehouse workflows using natural language.
-The system overrides Odoo's native chat to orchestrate specific tools (product search, stock checks, order creation) via LLM Function Calling.
+### 🧠 [Spinout Engine](https://github.com/markegidiDev/spinout-engine)
 
-*   **Key Tech:** Python • Odoo 18 (Custom Module) • LangChain • PostgreSQL
-*   **Highlights:**
-    *   **Smart Orchestration:** Translates user prompts into ORM queries using **Function Calling** for safe database interactions.
-    *   **RAG-lite:** Implements fuzzy search and term normalisation to locate products even with imprecise queries.
-    *   **Multi-Provider:** Dynamic routing between Gemini and OpenRouter APIs with automatic key validation.
+**AI-powered platform that turns technical research into venture-ready startup material.**
 
-### 📊 [Pulse Buddy (Extension)](https://github.com/markegidiDev/pulse-buddy)
-**Chrome Extension (MV3)** for Trading Intelligence that injects real-time financial data directly into the UI of crypto platforms.
+* Multi-agent workflow for analysing research papers, technical documents and presentations
+* Generates structured venture memos covering market opportunities, risks, competitors and investor questions
+* Implements authentication, account provisioning, subscription plans and feature gating
+* Supports private document storage, generated exports and an interactive Investor Room
 
-*   **Key Tech:** JavaScript (ES6+) • Chrome MV3 • WebSocket Client • DOM Manipulation
-*   **Highlights:**
-    *   **High Performance:** Uses optimised `MutationObserver` and *Virtualiser Shims* to inject UI badges without breaking virtual scrolling or causing layout shifts.
-    *   **Real-time Engine:** Manages WebSocket connections to update metrics ("Fresh Stats") with millisecond latency.
-    *   **Local-First:** Privacy-focused architecture where user preferences, watchlists, and blacklists live strictly in the browser storage.
+**Tech:** Python · JavaScript · AI Agents · Firebase · Firestore · S3-compatible Storage
 
-### ☁️ [Sigma18 Engineering (Backend & Docs)](https://github.com/Sigma18Unipd/ProductBaseline)
-**Product Baseline** for the university capstone project. This repository hosts the **Serverless Cloud Infrastructure** that powers the Pulse Buddy ecosystem, along with full engineering documentation.
+---
 
-*   **Key Tech:** AWS (Lambda, API Gateway, DynamoDB) • CI/CD (GitHub Actions) • Unit Testing
-*   **Highlights:**
-    *   **Serverless Architecture:** Scalable backend built on **Microservices** to handle data ingestion and real-time WebSocket distribution.
-    *   **Software Engineering:** Strict adherence to **SDLC** standards, including Requirements Analysis, Design Patterns, and Static Code Analysis.
-    *   **Quality Assurance:** Maintained >80% test coverage (Unit & Integration) via automated CI/CD pipelines.
+### 🎫 [AI Ticket Triage](https://github.com/markegidiDev/ai-ticket-triage)
 
-🔗 [**Official Engineering Documentation**](https://sigma18unipd.github.io/)
+**Production-style support ticket platform with AI-assisted classification and prioritisation.**
+
+* Complete ticket lifecycle with roles, priorities, SLA tracking, comments and assignment history
+* AI triage powered by Gemini with JSON Schema validation and deterministic fallbacks
+* Ports-and-adapters architecture with clear separation between domain, application and infrastructure
+* Security, audit trails, database migrations and automated integration testing
+
+**Tech:** Java · Spring Boot · React · TypeScript · PostgreSQL · Docker · Testcontainers · Gemini
+
+---
+
+### 🤖 [AI LiveBot — Odoo Assistant](https://github.com/markegidiDev/ERP-ChatBot-LLM)
+
+**Conversational AI assistant for managing warehouse and sales workflows directly inside Odoo 18.**
+
+* Searches products and checks real-time stock availability through natural-language requests
+* Creates and manages sales orders with user confirmation and stock validation
+* Validates delivery orders and handles warehouse operations from the Odoo chat
+* Supports Gemini and OpenRouter with configurable models and automatic API-key validation
+* Includes fuzzy product search, terminology normalisation and browser-based speech-to-text
+
+**Tech:** Python · Odoo 18 · PostgreSQL · Gemini · OpenRouter · Web Speech API
+
+---
+
+### 📊 [Pulse Buddy](https://github.com/markegidiDev/pulse-buddy)
+
+**Commercial Chrome extension that enriches crypto-platform interfaces with real-time information.**
+
+* Injects contextual badges and data directly into dynamically rendered interfaces
+* Uses optimised DOM observation without breaking virtual scrolling or causing layout shifts
+* Handles real-time updates through WebSocket connections
+* Uses a privacy-focused, local-first architecture for user preferences and watchlists
+* Developed as a real product used by paying customers
+
+**Tech:** JavaScript · Chrome Manifest V3 · WebSocket · DOM APIs · Browser Storage
+
+---
+
+## 🎓 Education & Research
+
+### Bachelor of Science in Computer Science
+
+**University of Padua**
+
+My bachelor’s thesis focused on the analysis and classification of **hallucinations in Large Language Models**, exploring different categories of unreliable model-generated information.
+
+### MSc in Cybersecurity
+
+**University of Padua · Starting October 2026**
+
+Current areas of interest:
+
+* Application and software security
+* Secure backend architecture
+* Cloud and infrastructure security
+* AI and LLM security
+* Automated threat detection
+* Security-oriented data analysis
 
 ---
 
 ## 🛠️ Tech Stack
 
-![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![C++](https://img.shields.io/badge/-C++-00599C?style=flat-square&logo=cplusplus&logoColor=white)
-![Java](https://img.shields.io/badge/-Java-007396?style=flat-square&logo=java&logoColor=white)
-![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
-![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![Odoo](https://img.shields.io/badge/-Odoo-714B67?style=flat-square&logo=odoo&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-336791?style=flat-square&logo=postgresql&logoColor=white)
+<div align="center">
+
+<img src="https://skillicons.dev/icons?i=python,java,ts,js,react,spring,docker,postgres,aws,firebase,git,github,linux" alt="Technology stack" />
+
+</div>
+
+### Languages
+
+`Python` · `Java` · `TypeScript` · `JavaScript` · `SQL` · `C++`
+
+### Backend & Applied AI
+
+`Spring Boot` · `Odoo` · `REST APIs` · `LLM Function Calling` · `Gemini API` · `OpenRouter` · `LangChain`
+
+### Frontend
+
+`React` · `Vite` · `Tailwind CSS` · `Chrome Extensions` · `HTML` · `CSS`
+
+### Data & Storage
+
+`PostgreSQL` · `MongoDB` · `Supabase` · `Firestore` · `MinIO` · `S3`
+
+### Cloud, DevOps & Testing
+
+`Docker` · `GitHub Actions` · `AWS` · `Firebase` · `Kubernetes` · `Testcontainers` · `JUnit` · `pytest`
 
 ---
 
-## 📊 GitHub Stats
+## 🎯 Current Focus
 
-![Marco's GitHub stats](https://github-readme-stats.vercel.app/api?username=markegidiDev&show_icons=true&theme=radical)
+I am currently strengthening my knowledge of cybersecurity while continuing to build practical projects involving:
 
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=markegidiDev&layout=compact&theme=radical)](https://github.com/markegidiDev)
-
----
-
-## 🔗 Find Me On
-
-[![YouTube](https://img.shields.io/badge/-YouTube-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://www.youtube.com/@markegidi)
-[![LinkedIn](https://img.shields.io/badge/-LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/marcoegidi/)
-[![GitHub](https://img.shields.io/badge/-GitHub-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/markegidiDev)
+* Secure and scalable backend systems
+* AI-powered business applications
+* LLM reliability and security
+* Cloud-native software architecture
+* Automated testing and software quality
 
 ---
 
-💡 *"Turning ideas into working code"*
+## 💼 Opportunities
+
+I am particularly interested in opportunities involving:
+
+* **Backend Engineering**
+* **Applied AI and LLM Applications**
+* **Security Engineering**
+* **Cloud and DevSecOps**
+* **Data-driven Software Systems**
+
+I am available for **part-time roles, internships and remote collaborations across Europe**, alongside my MSc studies.
+
+---
+
+<div align="center">
+
+### 🔗 Let's Connect
+
+[Portfolio](https://markegididev.github.io/) ·
+[LinkedIn](https://www.linkedin.com/in/marcoegidi) ·
+[GitHub](https://github.com/markegidiDev)
+
+<br>
+
+**Building reliable software at the intersection of AI, backend systems and cybersecurity.**
+
+</div>
